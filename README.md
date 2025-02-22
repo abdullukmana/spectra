@@ -129,13 +129,3 @@ $data = [
 ];
 return view("dashboard", $data);
 ```
-
----
-
-**Perubahan yang dilakukan:**
-✅ **Menambah heading dan struktur yang lebih jelas.**  
-✅ **Memperbaiki tata bahasa agar lebih profesional.**  
-✅ **Merapikan kode agar lebih mudah dibaca.**  
-✅ **Menambahkan komentar pada kode PHP untuk meningkatkan pemahaman.**  
-
-Markdown ini sekarang lebih jelas dan lebih mudah dipahami! 🚀
