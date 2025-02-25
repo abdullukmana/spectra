@@ -126,6 +126,7 @@ $links = [
 $data = [
     "nav"   => $nav,
     "links" => $links,
+    'showSecondaryLayout' => false
 ];
 return view("dashboard", $data);
 ```
