@@ -40,7 +40,29 @@
     let searchInput = document.getElementById("searchInput");
     const searchModal = document.getElementById("search");
     const limit = 5;
-    const links = <?= json_encode(!empty($links) ? $links : []) ?>;
+    const links = const links = [
+        {
+            id: '1',
+            url: '/page1',
+            title: 'Halaman Utama',
+            description: 'Deskripsi halaman utama',
+            type: 'page'
+        },
+        {
+            id: '2',
+            url: '/section1',
+            title: 'Bagian Pertama',
+            description: 'Deskripsi bagian pertama',
+            type: 'section'
+        },
+        {
+            id: '3',
+            url: '/artikel',
+            title: 'Artikel Terbaru',
+            description: 'Deskripsi artikel terbaru',
+            type: 'article'
+        }
+    ];
     const isEmpty = input => input.trim() === "";
 
     const myListHighlighter = new ListItemHighlighter({
